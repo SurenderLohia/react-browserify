@@ -1,0 +1,29 @@
+{
+  "name": "react-browserify",
+  "version": "0.0.0",
+  "description": "React Browserify App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://SurenderLohia@bitbucket.org/SurenderLohia/react-app.git"
+  },
+  "author": "SurenderLohia",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^12.0.1",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "reactify": "^1.1.1",
+    "uniq": "^1.0.1"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "reactify"
+      ]
+    ]
+  }
+}
